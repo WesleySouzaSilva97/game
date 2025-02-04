@@ -1,0 +1,18 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+.text-purple { color: #4B1979; }
+.bg-purple { background-color: #4B1979; }
+
+
+
+main {
+    height: 75vh;
+    background: url(img/banner_front.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+}
