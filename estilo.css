@@ -1,18 +1,58 @@
-body { margin: 0; font-family: Arial, sans-serif; }
-.text-purple { color: #4B1979; }
-.bg-purple { background-color: #4B1979; }
+/* Definição das cores principais */
+body {
+    font-family: Arial, sans-serif;
+    background: url('fotos/background.jpg') center/cover no-repeat fixed;
+}
 
+/* Navbar */
+.bg-purple {
+    background-color: #5D2490 !important;
+}
 
-
-main {
-    height: 75vh;
-    background: url(img/banner_front.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: cornsilk;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+/* Seção Hero */
+.hero {
+    background: url('fotos/banner.jpg') center/cover no-repeat;
+    height: 60vh;
+    
+    align-items: center;
+    justify-content: left;
+    color: white;
     text-align: center;
-    font-family: monospace;
+    position: relative;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Seção de Notícias */
+.news img {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+/* Seção de Estatísticas */
+.stats {
+    background-color: #5D2490;
+    color: white;
+    padding: 40px 0;
+}
+
+/* Seção CTA */
+.container .btn {
+    margin: 10px;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer img {
+    margin-bottom: 10px;
 }
