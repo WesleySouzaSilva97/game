@@ -11,9 +11,9 @@ body {
 
 /* Seção Hero */
 .hero {
+    display: flex;
     background: url('fotos/banner.jpg') center/cover no-repeat;
     height: 60vh;
-    
     align-items: center;
     justify-content: left;
     color: white;

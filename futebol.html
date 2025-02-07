@@ -1,78 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Orlando City Soccer Club</title>
   <link rel="shortcut icon" href="fotos/orlando-logo.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  
   <!-- CSS Bootstrap -->
-  <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
   <!-- Nosso CSS -->
   <link rel="stylesheet" href="estilo.css">
 </head>
-
 <body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-center">
+      <img src="fotos/clubs.png" alt="Club Logos" class="mx-2 logo-overlay">
+    </nav>
 
-  
-  <!DOCTYPE html>
-  <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <title>Orlando City Soccer Club</title>
-    <link rel="shortcut icon" href="fotos/orlando-logo.png" type="image/x-icon">
-    <!--CSS nosso-->
-    <link rel="stylesheet" href="estilo.css">
-    <!-- CSS Bootstrap-->
-    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
-  <body>
-      <div class="container-fluid ">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex justify-content-center">
-    <!-- Esta imagem vai ser sobreposta pela parte roxa -->
-    <img src="fotos/clubs.png" alt="Logo controle de video game" class="mx-2 logo-overlay">
-</nav>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-purple">
-    <a class="navbar-brand" href="#">
-      <img src="fotos/orlando-logo.png" alt="Logo Orlando City Soccer Club" style="width: 80px;">
-    </a>
-
-    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
+      <a class="navbar-brand" href="#">
+        <img src="fotos/orlando-logo.png" alt="Logo Orlando City Soccer Club" style="width: 80px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="tickets.html">Tickets</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="schedule.html">Schedule</a>
-            </li>
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search...">
-                <button class="btn btn-outline-light" type="submit">Search</button>
-            </form>
+          <li class="nav-item">
+            <a class="nav-link" href="tickets.html">Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="schedule.html">Schedule</a>
+          </li>
         </ul>
-    </div>
-</nav>
-
-              </ul>
-          </div>
-      </nav>
-      
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search...">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
   <!-- Seção Hero -->
   <header class="hero">
-    
+    <div class="overlay d-flex align-items-center justify-content-center flex-column">
       <h1>Orlando City</h1>
       <p>Orlando City Soccer Club</p>
     </div>
@@ -82,25 +56,25 @@
   <div class="container my-5">
     <h2 class="text-center text-purple">LATEST NEWS</h2>
     <div class="row text-center">
-      <div class="col-md-3">
-        <img src="fotos/noticia-thumb.jpg" alt="News">
+      <div class="col-md-3 col-sm-6">
+        <img src="fotos/noticia-thumb.jpg" alt="News" class="img-fluid rounded">
         <p><strong>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</strong></p>
-        <small class="text-muted">December 21,2015</small>
+        <small class="text-muted">December 21, 2015</small>
       </div>
-      <div class="col-md-3">
-        <img src="fotos/noticia-thumb.jpg" alt="News">
+      <div class="col-md-3 col-sm-6">
+        <img src="fotos/noticia-thumb.jpg" alt="News" class="img-fluid rounded">
         <p><strong>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</strong></p>
-        <small class="text-muted">December 21,2015</small>
+        <small class="text-muted">December 21, 2015</small>
       </div>
-      <div class="col-md-3">
-        <img src="fotos/noticia-thumb.jpg" alt="News">
+      <div class="col-md-3 col-sm-6">
+        <img src="fotos/noticia-thumb.jpg" alt="News" class="img-fluid rounded">
         <p><strong>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</strong></p>
-        <small class="text-muted">December 21,2015</small>
+        <small class="text-muted">December 21, 2015</small>
       </div>
-      <div class="col-md-3">
-        <img src="fotos/noticia-thumb.jpg" alt="News">
+      <div class="col-md-3 col-sm-6">
+        <img src="fotos/noticia-thumb.jpg" alt="News" class="img-fluid rounded">
         <p><strong>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</strong></p>
-        <small class="text-muted">December 21,2015</small>
+        <small class="text-muted">December 21, 2015</small>
       </div>
     </div>
   </div>
@@ -134,17 +108,55 @@
   </div>
 
   <!-- Rodapé -->
-  <footer class="footer">
-    <div class="container text-center">
-      <img src="fotos/orlando-logo.png" alt="Orlando City" width="50">
-      <p>&copy; Orlando City Soccer 2016. All rights reserved.</p>
+  <footer class="footer bg-dark text-light py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Adicionando o logo ao lado da coluna Popular Posts com espaçamento maior -->
+        <div class="col-md-2 col-sm-6 text-center mb-3 mb-md-0">
+          <img src="fotos/orlando-logo.png" alt="Orlando City" class="img-fluid" style="max-width: 80px; margin-right: 30px;">
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h5>POPULAR POSTS</h5>
+          <ul class="list-unstyled">
+            <li>Neque porro quisquam est, quister.</li>
+            <li>January 01, 2016</li>
+            <li>Neque porro quisquam est, quister.</li>
+            <li>January 01, 2016</li>
+            <li>Neque porro quisquam est, quister.</li>
+            <li>January 01, 2016</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <h5>LINKS</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light">Tickets</a></li>
+            <li><a href="#" class="text-light">News</a></li>
+            <li><a href="#" class="text-light">Schedule</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <h5>GET IN TOUCH</h5>
+          <address>
+            618 E. South Street, Suite 510<br>
+            Orlando, FL 32801<br>
+            1.855.ORL.CITY
+          </address>
+          <div class="social-icons">
+            <a href="#" class="text-light me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-light me-2"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <p>&copy; Orlando City Soccer 2016. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
   <!-- Scripts Bootstrap -->
-  <script src="scripts/jquery-3.3.1.slim.min.js"></script>
-  <script src="scripts/popper.min.js"></script>
-  <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
